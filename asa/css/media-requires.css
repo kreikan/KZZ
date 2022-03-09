@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1200px) {
+    .header {
+        width: 100%;
+    }
+    .container {
+        max-width: 929px;
+    }
+    .media {
+        display: none;
+    }
+    .form {
+        flex-wrap: wrap;
+    }
+    #material__book {
+        width: 500px;
+        height: 500px;
+    }
+    .send__btn {
+        margin-top: 20px;
+    }
+    #forum_video {
+        width: 500px;
+        height: 350px;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .card {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+    }
+    .card__none {
+        display: none;
+    }
+    .businessman__none {
+        display: none;
+    }
+    .material {
+        background-size: 595px;
+    }
+    #btn_forum {
+        padding: 24px 74px;
+    }
+    .businessman {
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        width: 6em;
+    }
+}
+
+@media only screen and (max-width: 926px) {
+    .intro {
+        margin-left: 32px;
+    }
+    #man__image {
+        width: 433px;
+    }
+    .main__aside {
+        width: 50%;
+    }
+    .aside {
+        margin-left: 30px;
+    }
+    .main__title {
+        font-size: 42px;
+    }
+    .main__subtext {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .big__txt {
+        font-size: 16px;
+    }
+    .main__text {
+        font-size: 16px;
+    }
+}

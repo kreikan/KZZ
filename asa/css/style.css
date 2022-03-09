@@ -1,0 +1,675 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    background: #000000;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #E09E36;
+    transition: .2s;
+}
+
+.ru {
+    margin-right: 14px;
+}
+
+.about__item:first-child {
+    margin-right: 36px;
+}
+
+.info__item {
+    margin-right: 19px;
+}
+
+.media__item {
+    margin-right: 10px;
+}
+
+.media__item:last-child {
+    margin-right: 0;
+}
+
+
+/* Intro__section */
+
+#intro__section {
+    background: url('../img/bgheader.png') no-repeat;
+}
+
+.intro {
+    padding: 209px 0 120px;
+}
+
+.intro__title {
+    font-size: 60px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.intro__text {
+    margin: 31px 0 90px;
+    line-height: 36px;
+}
+
+.intro__button {
+    display: flex;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 24px 47px;
+    border-radius: 3px;
+    color: #000000;
+    font-weight: 600;
+    background: linear-gradient(113.09deg, rgba(255, 255, 255, 0.09) -15.73%, rgba(192, 101, 0, 0.63) 47.76%, rgba(228, 123, 0, 0.27) 95.11%, rgba(255, 255, 255, 0) 130.53%), linear-gradient(93.98deg, #FFF3B4 -17.56%, #EEBA48 107.31%, #FFBA20 115.64%);
+}
+
+.btn:first-child {
+    margin-right: 17px;
+}
+
+.watch {
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+}
+
+.btn:hover {
+    background: linear-gradient(113.09deg, rgba(255, 255, 255, 0.09) -15.73%, rgba(192, 101, 0, 0.63) 47.76%, rgba(228, 123, 0, 0.27) 95.11%, rgba(255, 255, 255, 0) 130.53%), linear-gradient(93.98deg, #FFF3B4 -17.56%, #EEBA48 107.31%, #FFBA20 115.64%);
+    transition: .4s;
+    box-shadow: 0px 10px 30px rgba(245, 177, 51, 0.4);
+}
+
+
+/* description section */
+
+.description {
+    width: 100%;
+    background: url("../img/Zhe.png") no-repeat;
+    background-position: 0 140px;
+}
+
+.section__target {
+    display: flex;
+    margin-bottom: -6px;
+}
+
+.section__header {
+    margin-top: 120px;
+    color: #000000;
+}
+
+.man__image {
+    margin: 0 45px 0 30px;
+}
+
+.title {
+    color: #000000;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.text {
+    line-height: 36px;
+    margin: 41px 0 49px;
+}
+
+
+/* Main */
+
+.main__aside {
+    width: 50%;
+}
+
+.main__aside:last-child {
+    background: #151515;
+}
+
+.main__section {
+    display: inline-flex;
+}
+
+.main__aside:first-child {
+    background: #000000
+}
+
+.main__img {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.main__title {
+    font-size: 55px;
+    color: gold;
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 70px;
+}
+
+.main__subtext {
+    margin-top: 33px;
+}
+
+.main__text {
+    line-height: 36px;
+    margin: 33px 0 60px;
+}
+
+.big__txt {
+    max-width: 424px;
+}
+
+.img2 {
+    float: right;
+}
+
+.aside {
+    margin-left: 75px;
+}
+
+.arrow {
+    display: flex;
+}
+
+.left_arrow {
+    margin: 0 50px 60px 0;
+}
+
+
+/* Footer section */
+
+.header__section {
+    text-align: center;
+}
+
+.subtitle {
+    color: #6F7478;
+    font-size: 21px;
+    padding: 16px 0 57px 0;
+}
+
+.footer__description {
+    margin-top: 86px;
+}
+
+.card {
+    display: flex;
+}
+
+.card__item {
+    position: relative;
+    margin: 0 8px 25px;
+}
+
+.card__item .btn {
+    padding: 20px 40px;
+}
+
+.card__info {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 54px 47px 46px 30px;
+    width: 100%;
+}
+
+.card__title {
+    font-size: 26px;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.small__card {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card__bg {
+    background: #000000;
+    max-height: 560px;
+}
+
+.card__txt {
+    margin: -40px 0 187px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#card__btn {
+    text-decoration: none;
+}
+
+.footer_btn {
+    text-align: center;
+    padding: 85px 0 70px;
+}
+
+
+/* business people */
+
+.business__people {
+    background: #000000;
+}
+
+.title__white {
+    color: #fff;
+    padding: 88px 0 55px;
+}
+
+.businessman {
+    display: flex;
+}
+
+.businessman_item {
+    flex: 1 1 0;
+    margin-right: 25px;
+    position: relative;
+}
+
+.businessman_item:last-child {
+    margin-right: 0;
+}
+
+.about {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.name {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 29px 0 13px;
+}
+
+.prev,
+.next {
+    width: auto;
+    transition: 0.6s ease;
+    user-select: none;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.next {
+    right: 10%;
+}
+
+.prev {
+    left: 10%;
+}
+
+
+/* Material */
+
+.book {
+    display: flex;
+}
+
+.book__info {
+    color: #000;
+    margin: 112px 0 115px;
+}
+
+.book_subtitle {
+    margin-top: 23px;
+    font-size: 44px;
+    color: #17181C;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.book__info .btn {
+    color: #17181C;
+    border-color: #17181C;
+    font-weight: 600;
+    padding: 24px 74px;
+}
+
+#btn_forum {
+    padding: 24px 123px;
+}
+
+.forum .title {
+    text-align: center;
+}
+
+.book__info .title {
+    text-align: inherit;
+}
+
+.forum_video {
+    margin: 80px 75px 0 0;
+}
+
+.forum_info {
+    display: flex;
+}
+
+
+/* forum footer */
+
+.footer__forum {
+    background: #0011AD;
+}
+
+.result {
+    padding: 41px 0 39px;
+    display: flex;
+}
+
+.result__item {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.text__result {
+    margin-left: 35px;
+}
+
+.material {
+    background: url("../img/forum.png") no-repeat;
+    background-position: left bottom;
+}
+
+
+/* FOOTER section */
+
+.form {
+    display: flex;
+    align-items: flex-end;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #102167;
+}
+
+#form__input {
+    padding: 23px 217px 25px 20px;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-right: 30px;
+    border: 1px solid #fff;
+}
+
+.form__name {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form__title {
+    font-family: Playfair Display;
+    color: #fff;
+    padding: 118px 0 47px 0;
+}
+
+footer {
+    background-color: #000;
+    background: url('../img/footerbg.png')
+}
+
+.footer__label {
+    padding: 33px 0 36px;
+}
+
+.footer__label a {
+    color: #fff;
+}
+
+.footer__checkbox {
+    transform: scale(1.6);
+}
+
+.footer__nav a {
+    color: #6f7478;
+}
+
+.popup__input input:focus {
+    outline: none;
+}
+
+.pop_up {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    animation: popup_ani .5s forwards;
+}
+
+.second__pop_up {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    animation: popup_ani .5s forwards;
+}
+
+.second__pop_up.open {
+    display: block;
+}
+
+.golden__color {
+    color: gold;
+}
+
+.pop_up.open {
+    display: block;
+    visibility: visible;
+}
+
+@keyframes popup_ani {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.popup__item {
+    animation: popup_item .5s forwards;
+    z-index: 1000;
+    left: 50%;
+    position: fixed;
+    max-width: 432px;
+    top: 50%;
+    background: #000;
+    padding: 38px 24px 35px 39px;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes popup_item {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 50%;
+    }
+}
+
+.close_popup {
+    position: absolute;
+    right: 24px;
+    top: 21px;
+}
+
+.btn:hover {
+    background: linear-gradient(113.09deg, rgba(255, 255, 255, 0.09) -15.73%, rgba(192, 101, 0, 0.63) 47.76%, rgba(228, 123, 0, 0.27) 95.11%, rgba(255, 255, 255, 0) 130.53%), linear-gradient(93.98deg, #FFF3B4 -17.56%, #EEBA48 107.31%, #FFBA20 115.64%);
+    transition: 1s;
+}
+
+.popup__item .btn {
+    text-align: center;
+    width: 360px;
+}
+
+.mail__input {
+    margin: 21px 0 29px;
+}
+
+.popup__title {
+    color: #fff;
+    font-size: 32px;
+    font-family: Playfair Display;
+    text-transform: uppercase;
+}
+
+.popup__text {
+    margin: 18px 0 23px 0;
+    line-height: 30px;
+}
+
+.input {
+    padding: 24px 120px 24px 18px;
+    font-size: 18px;
+}
+
+.footer__label {
+    display: flex;
+    gap: 19px;
+}
+
+
+/* MENU */
+
+#menu__toggle {
+    opacity: 0;
+}
+
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 38px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+/* добавляем "гамбургер" */
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+}
+
+
+/* контейнер меню */
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+
+/* элементы меню */
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
