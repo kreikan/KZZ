@@ -67,7 +67,7 @@ nav a:hover {
 /* Intro__section */
 
 #intro__section {
-    background: url('../img/bgheader.png') no-repeat;
+    background: url(../img/bgheader.png) no-repeat center / cover;
 }
 
 .intro {
@@ -318,6 +318,7 @@ nav a:hover {
 
 .prev,
 .next {
+    visibility: hidden;
     width: auto;
     transition: 0.6s ease;
     user-select: none;
